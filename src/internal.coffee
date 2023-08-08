@@ -41,3 +41,5 @@ module.exports =
       .file 'afchunk.mht', utils.getMHTdocument htmlSource
       .folder '_rels'
         .file 'document.xml.rels', fs.readFileSync __dirname + '/assets/document.xml.rels'
+    zip.folder 'word'
+      .file 'header1.xml', (fs.readFileSync __dirname + '/assets/word/header1.xml','utf-8').replace(/就在新的世界/g, '页眉').replace(/w:val="right"/g, 'w:val="' + 'center' + '"');

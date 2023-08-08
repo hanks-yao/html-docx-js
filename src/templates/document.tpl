@@ -28,6 +28,7 @@
   <w:body>
     <w:altChunk r:id="htmlChunk" />
     <w:sectPr>
+      <w:headerReference w:type="default" r:id="rId7"/>
       <w:pgSz w:w="<%= width %>" w:h="<%= height %>" w:orient="<%= orient %>" />
       <w:pgMar w:top="<%= margins.top %>"
                w:right="<%= margins.right %>"

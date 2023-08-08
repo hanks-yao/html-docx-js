@@ -2,4 +2,5 @@
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
   <Relationship Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/aFChunk"
     Target="/word/afchunk.mht" Id="htmlChunk" />
+  <Relationship Id="rId7" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/header" Target="header1.xml"/>
 </Relationships>
